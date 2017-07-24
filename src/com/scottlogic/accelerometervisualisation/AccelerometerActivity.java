@@ -65,8 +65,8 @@ public class AccelerometerActivity extends Activity implements SensorEventListen
         
         // Only set the chart up the first time the Activity is created
         if (savedInstanceState == null) {
-			// Uncomment this line to set the license key if you're using a trial version
-            //shinobiChart.setLicenseKey("<license_key_here>");
+			// Uncomment this line to set the trial key if you're using a trial version
+            //shinobiChart.setTrialKey("<trial_key_here>");
 			
             // Set the chart title
             shinobiChart.setTitle("Accelerometer Visualisation");
